@@ -22,14 +22,14 @@ body.dark-theme img {
 /*background-color: var(--bs-light)!important;*/
 }
 
-body.dark-theme button#fish {
+body.dark-theme button.fish {
     color: #000;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
     border-radius: .1rem !important;
 }
 
-body.dark-theme button#fish:hover {
+body.dark-theme button.fish:hover {
     color: #f8f9fa;
     border-color: #f8f9fa;
     background-color: transparent !important;
@@ -80,9 +80,11 @@ body.dark-theme a {
 }
 
 @media (max-width:540px){
-   h1,h2,h3,h4,footer,i, .subH {font-size: 90% !important;}
+   h1,h2,h3,h4 {font-size: 120% !important;}
+   footer, .subH {font-size: 90% !important;}
    .btn-toggle {padding: .25rem .5rem !important;}
    /*header h4 {text-align:center;}*/
-    main {font-size:95% !important;}
+    main {font-size: 95% !important;}
+    i {font-size: 100% !important;}
 
 }

@@ -142,3 +142,33 @@ body.dark-theme a {
   }
 }
 
+article.fish-card:hover {
+    /*background: #6c757d !important;*/
+    /*background: #adb5bd !important;*/
+    background: #ced4da !important;
+}
+
+article.fish-card {
+     /* background: #f8f9fa !important;  */
+     /* animation: change-background 4s ease infinite;  */
+        transition-property: background-color, color;
+        transition-duration: 2s;
+        transition-delay: 0s, 1s;
+        transition-timing-function: cubic-bezier(0.1, 0.8, 0.5, 2), ease;
+ }
+
+/*
+@keyframes change-background {
+  0% {
+    background: #69b7eb !important;
+  }
+  50% {
+    background: #b3dbd3 !important;
+  }
+  100% {
+    background: #f4d6db !important;
+  }
+}
+*/
+
+
